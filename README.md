@@ -1,77 +1,46 @@
 # Project 3 - *Texgram*
 
-**Texgram** is a photo sharing app using Parse as its backend.
+**Texgram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: **20** hour spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User sees app icon in home screen.
-- [x] User can sign up to create a new account using Parse authentication
-- [x] User can log in and log out of his or her account
-- [x] The current signed in user is persisted across app restarts
-- [x] User can take a photo, add a caption, and post it to "Instagram"
-- [x] User can view the last 20 posts submitted to "Instagram"
-- [x] User can pull to refresh the last 20 posts submitted to "Instagram"
-- [x] User can tap a post to view post details, including timestamp and caption.
+- [X] User can sign up to create a new account using Parse authentication.
+- [X] User can log in and log out of his or her account.
+- [X] The current signed in user is persisted across app restarts.
+- [X] User can take a photo, add a caption, and post it to "Instagram".
 
-The following **stretch** features are implemented:
+The following **optional** features are implemented:
 
-- [x] Style the login page to look like the real Instagram login page.
-- [x] Style the feed to look like the real Instagram feed.
-- [x] User should switch between different tabs - viewing all posts (feed view), capture (camera and photo gallery view) and profile tabs (posts made) using a Bottom Navigation View.
-- [x] User can load more posts once he or she reaches the bottom of the feed using infinite scrolling.
-- [x] Show the username and creation time for each post
-- [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse
-- User Profiles:
-  - [ ] Allow the logged in user to add a profile photo
-  - [ ] Display the profile photo with each post
-  - [ ] Tapping on a post's username or profile photo goes to that user's profile page
-- [ ] User can comment on a post and see all comments for each post in the post details screen.
-- [ ] User can like a post and see number of likes for each post in the post details screen.
-- [x] Create a custom Camera View on your phone.
-- [x] Run your app on your phone and use the camera to take the photo
+- [X] User sees app icon in home screen and styled bottom navigation view
+- [X] Style the feed to look like the real Instagram feed.
+- [ ] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
 
-The following **additional** features can be implemented:
+The following **additional** features are implemented:
 
-- [x] List anything else that you can get done to improve the app functionality!
-  - I can implement landscape view.
-  - I can implement image selection from a file, as an alternative to using the camera.
-  - I can implement the upload of short videos.
-
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1. I will like to discuss more about using fragments.
-2. I will like to discuss more about having my app in Google Play so users can download it.
+- [ ] Pull to refresh is implemented
+- [X] User can tap on post to view post detail
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/stanleynwakamma/Texgram/blob/master/Instagram_App.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/stanleynwakamma/MyTexgram/blob/master/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Credits
 
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
+## Open-source libraries used
 
-- [Android Async Http Client](http://loopj.com/android-async-http/) - networking library
-- Instagram icons
-- Glide
-- Parse (Server)
-
-
-## Notes
-
-Describe any challenges encountered while building the app.
-- I need to learn more about using fragments.
+- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
+- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
 ## License
 
-    Copyright 2019 Stanley Nwakamma, Facebook Uniuversity for Engineering.
+    Copyright [2021] [Stanley Nwakamma]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
