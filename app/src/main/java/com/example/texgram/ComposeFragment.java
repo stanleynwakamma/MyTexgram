@@ -17,6 +17,7 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.io.File;
+import java.util.Objects;
 
 public class ComposeFragment extends Fragment {
     public static final String ARG_PAGE = "ARG_PAGE";
@@ -58,14 +59,14 @@ public class ComposeFragment extends Fragment {
         btnSelectPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((MainActivity) getContext()).onLaunchCamera();
+                ((MainActivity) requireContext()).onLaunchCamera();
             }
         });
 
         ivPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ((MainActivity) getContext()).onLaunchCamera();
+                ((MainActivity) requireContext()).onLaunchCamera();
             }
         });
 
@@ -85,7 +86,7 @@ public class ComposeFragment extends Fragment {
                         btnSelectPhoto.setVisibility(View.VISIBLE);
                         etCaption.setText("");
                         ivPhoto.setImageResource(0);
-                        ((MainActivity) getContext()).bottomNavigationView.setSelectedItemId(R.id.action_feed);
+                        ((MainActivity) requireContext()).bottomNavigationView.setSelectedItemId(R.id.action_feed);
                     }
                 });
             }
