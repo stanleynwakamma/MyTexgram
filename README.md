@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Pull to refresh is implemented
+- [X] Pull to refresh is implemented
 - [X] User can tap on post to view post detail
 
 ## Video Walkthrough
